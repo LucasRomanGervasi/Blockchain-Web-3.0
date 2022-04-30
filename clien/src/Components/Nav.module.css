@@ -1,0 +1,43 @@
+.containernav{
+    height: 80px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgb(15, 11, 34);
+}
+.containerimg{
+    align-items: center;
+}
+img{
+    height: 90%;
+    margin-left: 70px;
+    width: 80px;
+}
+.containertitulo{
+    display: flex;
+    align-items: center;
+}
+.titulo{
+    font-size: 30px;
+    color: aliceblue;
+}
+.containerbotones{
+    right: 0;
+    display: flex;
+    width: 50%;
+}
+ul{
+    display: flex;
+    width: 100%;
+    text-decoration: none;
+    align-items: center;
+}
+li{
+    flex-wrap: wrap;
+    justify-items: end;
+    width: 100%;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
